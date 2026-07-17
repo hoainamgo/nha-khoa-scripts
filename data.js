@@ -70,15 +70,17 @@ const DATA = {
   ],
 
   pricing: [
-    { id: "pr1", title: "Khám tổng quát", price: "300K – 500K", note: "Thường miễn phí lần đầu đặt lịch" },
-    { id: "pr2", title: "Cạo vôi + đánh bóng", price: "500K – 1M", note: "30–45 phút, phòng viêm lợi" },
-    { id: "pr3", title: "Trám răng (composite)", price: "1M – 2.5M / răng", note: "Bảo hành 2 năm" },
-    { id: "pr4", title: "Nhổ răng thường", price: "1M – 3M / răng", note: "Răng khôn phức tạp tính riêng" },
-    { id: "pr5", title: "Điều trị tủy", price: "2M – 5M / răng", note: "1–3 buổi" },
-    { id: "pr6", title: "Bọc răng sứ", price: "5M – 15M / răng", note: "Bảo hành 5–10 năm" },
-    { id: "pr7", title: "Cấy ghép Implant", price: "25M – 50M / răng", note: "Bảo hành 10 năm" },
-    { id: "pr8", title: "Niềng răng", price: "30M – 100M", note: "Tùy mắc cài / sứ / Invisalign" },
-    { id: "pr9", title: "Tẩy trắng răng", price: "3M – 8M", note: "Bảo hành 1 năm" },
-    { id: "pr10", title: "Răng trẻ em", price: "300K – 2M", note: "Khám/trám/tư vấn răng sữa" }
+    { id: "pr1", title: "Khám tổng quát", price: "Miễn phí", note: "Khám lần đầu đặt lịch" },
+    { id: "pr2", title: "Cạo vôi + đánh bóng", price: "100K – 500K", note: "2 hàm, độ 1-4" },
+    { id: "pr3", title: "Trám răng (composite)", price: "150K – 700K / răng", note: "Mặt nhai bảo hành 6 tháng" },
+    { id: "pr4", title: "Nhổ răng thường", price: "300K – 5M / răng", note: "Răng khôn phức tạp tính riêng" },
+    { id: "pr5", title: "Điều trị tủy", price: "1M – 3M / răng (người lớn)", note: "Trẻ em 500K – 800K" },
+    { id: "pr6", title: "Bọc răng sứ", price: "1M – 15M / răng", note: "Thép sứ 1M → Lava kim cương 15M, bảo hành 2–15 năm" },
+    { id: "pr7", title: "Cấy ghép Implant", price: "10M – 100M / trụ", note: "Hàn Quốc 10M → Thụy Sỹ Plus 100M, bảo hành 7–30 năm" },
+    { id: "pr8", title: "Niềng răng", price: "30M – 70M+", note: "Mắc cài KL 30M → Khay trong suốt 70M+, bảo hành 5 năm" },
+    { id: "pr9", title: "Tẩy trắng răng", price: "1M – 8M", note: "Máng+thuốc 1M / Công nghệ Mỹ 8M, 2 hàm" },
+    { id: "pr10", title: "Răng trẻ em", price: "100K – 2M", note: "Hàn răng sữa 100K – 150K / Khám trám 300K – 2M" },
+    { id: "pr11", title: "Dán sứ Veneer", price: "8M – 12M / răng", note: "Emax 8M / Lava 12M, bảo hành 10–15 năm" },
+    { id: "pr12", title: "Răng tháo lắp", price: "5M – 10M", note: "Nhựa cứng/dẻo, 1 hàm/1 răng" }
   ]
 };

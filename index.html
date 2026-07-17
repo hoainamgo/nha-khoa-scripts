@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kịch bản CSKH – Nha Khoa Quốc Tế American</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Login -->
+  <div id="login">
+    <div class="login-card">
+      <div class="logo">🦷</div>
+      <h1>Nha Khoa Quốc Tế American</h1>
+      <p>Kho kịch bản CSKH & báo giá nhanh</p>
+      <input id="pw" type="password" inputmode="numeric" placeholder="Mật khẩu" autocomplete="off" />
+      <button onclick="tryLogin()">Vào thôi 💕</button>
+      <div id="loginErr" class="login-err"></div>
+      <div class="hint">Nhập mật khẩu để mở thư viện kịch bản</div>
+    </div>
+  </div>
+
+  <!-- App -->
+  <div id="app">
+    <header class="top">
+      <div class="badge">🦷</div>
+      <div>
+        <h1>Kịch bản CSKH nhanh</h1>
+        <div class="sub">Nha Khoa Quốc Tế American · Giọng Mai</div>
+      </div>
+    </header>
+
+    <input id="search" class="search" type="text" placeholder="🔍 Tìm dịch vụ, triệu chứng, giá… (vd: niềng, đau, implant)" />
+
+    <div id="chips" class="chips"></div>
+    <div id="count" class="count"></div>
+    <div id="grid" class="grid"></div>
+
+    <footer id="foot" class="foot"></footer>
+  </div>
+
+  <div id="toast"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

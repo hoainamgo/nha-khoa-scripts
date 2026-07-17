@@ -67,7 +67,7 @@ function buildCard(it) {
 
   const tag = document.createElement("span");
   tag.className = "tag" + (it.emergency ? " warn" : "");
-  tag.textContent = it.emergency ? "Cấp cứu" : TABS.find(t => t.key === activeTab).label;
+  tag.textContent = it.emergency ? "⚠ Cấp cứu" : TABS.find(t => t.key === activeTab).label;
   card.appendChild(tag);
 
   const h = document.createElement("h3");
@@ -97,7 +97,7 @@ function buildCard(it) {
   const textToCopy = activeTab === "pricing"
     ? `${it.title}: ${it.price}${it.note ? " — " + it.note : ""}`
     : it.body || it.title;
-  copy.textContent = "📋 Copy kịch bản";
+  copy.innerHTML = "📋 <span>Copy kịch bản</span>";
   copy.onclick = () => copyText(textToCopy, copy);
   card.appendChild(copy);
 
